@@ -1,0 +1,9 @@
+﻿  Probability testing.cpp
+C:\Users\Szymon & Kuba\source\repos\Probability testing\Probability testing\Probability testing.cpp(8,1): error C4430: brak specyfikatora typu - założono, że int. Uwaga: C++ nie obsługuje domyślnie typu int
+C:\Users\Szymon & Kuba\source\repos\Probability testing\Probability testing\Probability testing.cpp(8,9): error C2146: błąd składniowy: brakuje „;” przed identyfikatorem „rng”
+C:\Users\Szymon & Kuba\source\repos\Probability testing\Probability testing\Probability testing.cpp(8,12): error C2143: błąd składniowy: brakuje „;” przed „{”
+C:\Users\Szymon & Kuba\source\repos\Probability testing\Probability testing\Probability testing.cpp(8,12): error C2447: "{": brak nagłówka funkcji (stary styl formalnej listy?)
+C:\Users\Szymon & Kuba\source\repos\Probability testing\Probability testing\Probability testing.cpp(14,5): error C2065: "uniform_int_distribution": niezadeklarowany identyfikator
+C:\Users\Szymon & Kuba\source\repos\Probability testing\Probability testing\Probability testing.cpp(14,30): error C2062: nieoczekiwany typ "int"
+C:\Users\Szymon & Kuba\source\repos\Probability testing\Probability testing\Probability testing.cpp(29,29): error C2065: "rng": niezadeklarowany identyfikator
+C:\Users\Szymon & Kuba\source\repos\Probability testing\Probability testing\Probability testing.cpp(29,24): error C3861: "dist": identyfikatora nie odnaleziono
