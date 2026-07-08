@@ -70,8 +70,8 @@ void loop() {
     Serial.println(String(CURRENT_STATE));
   }
 
-  if(digitalRead(MAIN_BUTTON) == LOW) main_button_pressed = true;
-  if(digitalRead(CROSS_BUTTON) == LOW) cross_button_pressed = true;
+  if(digitalRead(MAIN_BUTTON) == LOW && CURRENT_STATE != 6) main_button_pressed = true;
+  if(digitalRead(CROSS_BUTTON) == LOW && CURRENT_STATE != 2) cross_button_pressed = true;
 
   switch (CURRENT_STATE)
   {
